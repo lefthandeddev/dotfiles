@@ -1,18 +1,17 @@
 - defaults:
-    link:
-      create: true
-      relink: true
+      link:
+          create: true
+          relink: true
 
 - clean: ["~"]
 
 - create:
-    - ~/code
+      - ~/code
 
 - link:
-    ~/.dotfiles: ""
-    ~/.gitconfig:
-    ~/.vimrc:
-    ~/.zshrc:
+      ~/.dotfiles: ""
+      ~/.vimrc:
+      ~/.zshrc:
 
 - shell:
-    - git submodule update --init --recursive
+      - git submodule update --init --recursive

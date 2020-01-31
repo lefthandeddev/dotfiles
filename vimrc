@@ -26,7 +26,7 @@ Plugin 'kana/vim-textobj-line'
 Plugin 'kana/vim-textobj-entire'
 Plugin 'szw/vim-g'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'fatih/vim-go' " golang development 
+Plugin 'fatih/vim-go' " golang development
 Plugin 'jamesroutley/vim-logbook'
 Plugin 'sheerun/vim-polyglot'   " syntax highlighting in most languages
 
@@ -49,7 +49,7 @@ let g:rainbow_active = 1    " 0 if you want to enable it later via :RainbowToggl
 " --------------------------------
 " Basic stuff
 " --------------------------------
-let g:mapleader = " " " Set leader to spacebar 
+let g:mapleader = " " " Set leader to spacebar
 set spelllang=en_us
 set backspace=indent,eol,start " Bring backspace to life
 set number          " Line numbers
@@ -61,9 +61,9 @@ map <Leader>p :set paste<CR><esc>"*]p:set nopaste<cr>
 map <Leader>y "*y  )
 map <Leader><Leader> :w<CR>
 inoremap jj <ESC>:w<CR>
-     
+
 " Pasting - indent last pasted
-nnoremap gz '[='] 
+nnoremap gz '[=']
 
 " Disable highlight when <leader><cr> is pressed
 map <silent> <leader><ESC> :noh<cr>
@@ -91,7 +91,7 @@ nnoremap ˙ gT
 nnoremap ¬ gt
 nnoremap T :tabnew<cr>
 
-" Open new splits to right and bottom 
+" Open new splits to right and bottom
 set splitbelow
 set splitright
 
@@ -123,3 +123,6 @@ map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
+
+set number relativenumber
+set nu rnu
