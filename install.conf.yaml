@@ -5,9 +5,13 @@
 
 - clean: ["~"]
 
+- create:
+    - ~/code
+
 - link:
     ~/.dotfiles: ""
     ~/.gitconfig:
+    ~/.vimrc:
     ~/.zshrc:
 
 - shell:
