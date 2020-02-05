@@ -31,4 +31,8 @@ map <down> <nop>
 map <left> <nop>
 map <right> <nop>
 
-autocmd vimenter * NERDTree
+" NERDTree
+nmap <F6> :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen=1
+let NERDTreeShowHidden=1
+
