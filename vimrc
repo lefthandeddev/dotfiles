@@ -12,7 +12,9 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 
@@ -29,3 +31,4 @@ map <down> <nop>
 map <left> <nop>
 map <right> <nop>
 
+autocmd vimenter * NERDTree
