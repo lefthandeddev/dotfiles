@@ -21,15 +21,17 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-sensible'
 Plug 'jiangmiao/auto-pairs'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'luochen1990/rainbow'
 Plug 'valloric/youcompleteme'
+Plug 'pangloss/vim-javascript'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
@@ -61,9 +63,11 @@ let g:rainbow_active = 1
 " --------------------------------
 
 let g:mapleader = " " " Set leader to spacebar
+
 set wrap
 set number relativenumber
 set nu rnu
+set hlsearch
 
 " Disable arrow keys in Normal mode
 map <up> <nop>
