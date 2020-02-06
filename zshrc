@@ -19,3 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 export GOPATH=$HOME/code/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+
+alias python=/usr/local/bin/python3
+alias pip=/usr/local/bin/pip3

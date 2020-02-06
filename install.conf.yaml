@@ -20,5 +20,5 @@
 
 - shell:
       - git submodule update --init --recursive
-      - $HOME/.vim/plugged/youcompleteme/install.py --go-completer
+      - $HOME/.vim/plugged/youcompleteme/install.py --go-completer --ts-completer
 

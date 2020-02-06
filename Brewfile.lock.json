@@ -8,7 +8,7 @@
         "revision": "2119c4d57f1906065accc06b04cb8d4c59c77290"
       },
       "homebrew/core": {
-        "revision": "870c97b87cc0bf683633014ef6b1311316d014c4"
+        "revision": "eb952a3f04f7624f9b6da14d8b0f1027b717af84"
       }
     },
     "brew": {
@@ -608,6 +608,27 @@
             }
           }
         }
+      },
+      "python": {
+        "version": "3.7.6_1",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.6_1.catalina.bottle.tar.gz",
+              "sha256": "3871ef8b53270576c46489ae397f245b84772c405085238790cf5faa1853b33a"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.6_1.mojave.bottle.tar.gz",
+              "sha256": "643d627c2b4fc03a3286c397d299284ef8ce2d4a832737e41175f297d4f0862e"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/python-3.7.6_1.high_sierra.bottle.tar.gz",
+              "sha256": "3504f29ae0366d08fc025cfe2885cd2e685f74ab041a341a393d3b6967f139d7"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -624,7 +645,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "2.2.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "870c97b87cc0bf683633014ef6b1311316d014c4",
+        "Homebrew/homebrew-core": "eb952a3f04f7624f9b6da14d8b0f1027b717af84",
         "CLT": "11.0.0.0.1.1559496560",
         "Xcode": "11.3",
         "macOS": "10.14.6"
