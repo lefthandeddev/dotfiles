@@ -28,6 +28,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-unimpaired'
 Plug 'jiangmiao/auto-pairs'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'luochen1990/rainbow'
+Plug 'valloric/youcompleteme'
 
 call plug#end()
 
@@ -50,6 +52,9 @@ let NERDTreeShowHidden=1
 let g:user_emmet_mode='n'
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
+
+" rainbow
+let g:rainbow_active = 1
 
 " --------------------------------
 " Other

@@ -3,6 +3,9 @@
           create: true
           relink: true
 
+- brewfile:
+      - Brewfile
+
 - clean: ["~"]
 
 - create:
@@ -17,6 +20,5 @@
 
 - shell:
       - git submodule update --init --recursive
+      - $HOME/.vim/plugged/youcompleteme/install.py --go-completer
 
-- brewfile:
-      - Brewfile

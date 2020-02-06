@@ -5,10 +5,10 @@
         "revision": "c828f5c353386859434ffd9206acb076b18db821"
       },
       "homebrew/cask": {
-        "revision": "957c50f0573abe8500aa437724f72d883ef5ab3c"
+        "revision": "2119c4d57f1906065accc06b04cb8d4c59c77290"
       },
       "homebrew/core": {
-        "revision": "62a7a1799d490a166b5a4f4f201c2d0701489864"
+        "revision": "870c97b87cc0bf683633014ef6b1311316d014c4"
       }
     },
     "brew": {
@@ -587,6 +587,27 @@
             }
           }
         }
+      },
+      "cmake": {
+        "version": "3.16.3",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.3.catalina.bottle.tar.gz",
+              "sha256": "eb47fab78f567ef95be459336db2da86394e196ce544eee3cfdfa3fbb0861d2d"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.3.mojave.bottle.tar.gz",
+              "sha256": "4244d5f4624f0d16d2a2259b63246ac8c6bb0cf06f84231e65b4b6400a28bc42"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.3.high_sierra.bottle.tar.gz",
+              "sha256": "7e3d416144b1962929b9f71ed469356b885ee827dd4216bbc78190a897bf6316"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -603,7 +624,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "2.2.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "62a7a1799d490a166b5a4f4f201c2d0701489864",
+        "Homebrew/homebrew-core": "870c97b87cc0bf683633014ef6b1311316d014c4",
         "CLT": "11.0.0.0.1.1559496560",
         "Xcode": "11.3",
         "macOS": "10.14.6"
