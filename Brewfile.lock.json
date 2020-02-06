@@ -5,10 +5,10 @@
         "revision": "c828f5c353386859434ffd9206acb076b18db821"
       },
       "homebrew/cask": {
-        "revision": "69b00b2659be9d32764a2b662ce94576a61bfa6b"
+        "revision": "957c50f0573abe8500aa437724f72d883ef5ab3c"
       },
       "homebrew/core": {
-        "revision": "231251f23c50654c80fc6f957d03daea77148b52"
+        "revision": "62a7a1799d490a166b5a4f4f201c2d0701489864"
       }
     },
     "brew": {
@@ -566,6 +566,27 @@
             }
           }
         }
+      },
+      "vim": {
+        "version": "8.2.0200",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0200.catalina.bottle.tar.gz",
+              "sha256": "cf70a7dfe2cd79a2c70b71b826989d1525f345352177311b3efdd2c7d3e3bde7"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0200.mojave.bottle.tar.gz",
+              "sha256": "2ae924535b4b74c831b586f00547978e0c7afa1af71f203caaefd4e90551d88a"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/vim-8.2.0200.high_sierra.bottle.tar.gz",
+              "sha256": "b8cf0690810047454a3425f27ef7189219c2c8c59efca9712620a6ec33ae4ac1"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -582,7 +603,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "2.2.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "231251f23c50654c80fc6f957d03daea77148b52",
+        "Homebrew/homebrew-core": "62a7a1799d490a166b5a4f4f201c2d0701489864",
         "CLT": "11.0.0.0.1.1559496560",
         "Xcode": "11.3",
         "macOS": "10.14.6"
