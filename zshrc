@@ -4,7 +4,7 @@ ZSH_THEME="miloshadzic"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git brew history node npm kubectl helm docker docker-compose vi-mode vscode)
+plugins=(git brew history node npm kubectl helm docker docker-compose vi-mode vscode common-aliases httpie)
 
 source $ZSH/oh-my-zsh.sh
 
