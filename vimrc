@@ -32,6 +32,7 @@ Plug 'luochen1990/rainbow'
 Plug 'valloric/youcompleteme'
 Plug 'pangloss/vim-javascript'
 Plug 'sheerun/vim-polyglot'
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 
@@ -58,6 +59,8 @@ autocmd FileType html,css EmmetInstall
 " rainbow
 let g:rainbow_active = 1
 
+
+
 " --------------------------------
 " Other
 " --------------------------------
@@ -81,3 +84,6 @@ map <C-K> :bprev<CR>
 
 " Open current file in a new vertical split with '='
 nnoremap = :vsplit<cr>
+
+map <Leader><Leader>w <Plug>(easymotion-bd-w)
+map <Leader><Leader>s <Plug>(easymotion-overwin-f2)
