@@ -87,3 +87,7 @@ nnoremap = :vsplit<cr>
 
 map <Leader><Leader>w <Plug>(easymotion-bd-w)
 map <Leader><Leader>s <Plug>(easymotion-overwin-f2)
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
